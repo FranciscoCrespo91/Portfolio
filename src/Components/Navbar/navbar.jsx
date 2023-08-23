@@ -1,15 +1,14 @@
-import * as React from 'react';
-import PropTypes from 'prop-types';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import CssBaseline from '@mui/material/CssBaseline';
-import useScrollTrigger from '@mui/material/useScrollTrigger';
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
-import Slide from '@mui/material/Slide';
+import * as React from "react";
+import PropTypes from "prop-types";
+import AppBar from "@mui/material/AppBar";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
+import CssBaseline from "@mui/material/CssBaseline";
 
-import "../Navbar/styles.css"
+import useScrollTrigger from "@mui/material/useScrollTrigger";
+import Slide from "@mui/material/Slide";
+
+import "../Navbar/styles.css";
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -43,25 +42,30 @@ export default function HideAppBar(props) {
       <HideOnScroll {...props}>
         <AppBar>
           <Toolbar>
-            <Typography variant="h6" component="div">
-              Scroll to hide App bar
+            <Typography>
+              <section>
+                <div className="right"><h1>Francisco Crespo</h1></div>
+                <div className="left"><h4>About me</h4>
+                     <h4>Projects</h4>
+                     <h4>Contacts</h4>
+                </div>
+                
+                
+
+              </section>
             </Typography>
           </Toolbar>
         </AppBar>
       </HideOnScroll>
       <Toolbar />
-      <Container>
-        <Box sx={{ my: 2 }}>
-          {[...new Array(12)]
-            .map(
-              () => `Cras mattis consectetur purus sit amet fermentum.
-Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,
-            )
-            .join('\n')}
-        </Box>
-      </Container>
     </React.Fragment>
   );
+}
+
+{
+  /* <section>Ironhack Projects
+    <div>1#Project</div>
+    <div>2#Project</div>
+    <div>3#Project</div>
+</section> */
 }
