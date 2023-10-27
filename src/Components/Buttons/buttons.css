@@ -1,0 +1,8 @@
+.buttons{
+    display: flex;
+    align-items: end;
+    font-size: 25px;
+    justify-content: center;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+}

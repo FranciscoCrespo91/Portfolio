@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    background-color: cornflowerblue;
+    background-color:#42a5f5;
 }
 
 .title{
@@ -19,16 +19,6 @@ body{
     margin-left: 10vw;
     font-size: 50px;
     
-}
-
-.buttons{
-    display: flex;
-    width: 100vw;
-    align-items: end;
-    color: white;
-    font-size: 25px;
-    justify-content: right;
-    margin-right: 10vw;
 }
 
 #aboutMe{

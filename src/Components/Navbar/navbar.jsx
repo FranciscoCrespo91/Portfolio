@@ -1,5 +1,9 @@
 import * as React from "react";
+import Buttons from "../Buttons/buttons";
+
 import "../Navbar/navbar.css";
+
+
 
 function Navbar () {
   return(
@@ -8,8 +12,7 @@ function Navbar () {
           <h1>Francisco Crespo</h1>
         </div>
         <div className="buttons">
-          <h3 id="aboutMe">About me</h3>
-          <h3 id="myProjects">My Projects</h3>
+          <Buttons/>
         </div>
       
 
