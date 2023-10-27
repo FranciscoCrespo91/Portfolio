@@ -1,13 +1,16 @@
-import './App.css'
 
-import HideAppBar from './Components/Navbar/navbar'
+import Navbar from './Components/Navbar/navbar'
 
 function App() {
 
   return (
     
       <div>
-       <HideAppBar/>
+        <section>
+        <Navbar/>
+        </section>
+       
+
 
       </div>
 

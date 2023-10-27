@@ -1,0 +1,40 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.navbar{
+    font-family: 'Monda';
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: cornflowerblue;
+}
+
+.title{
+    display: flex;
+    width:fit-content;
+    margin-left: 10vw;
+    font-size: 50px;
+    
+}
+
+.buttons{
+    display: flex;
+    width: 100vw;
+    align-items: end;
+    color: white;
+    font-size: 25px;
+    justify-content: right;
+    margin-right: 10vw;
+}
+
+#aboutMe{
+    margin: 2vw;
+}
+
+#myProjects{
+    margin: 2vw;
+}
