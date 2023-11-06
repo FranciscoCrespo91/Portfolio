@@ -5,4 +5,9 @@
     justify-content: center;
     margin-right: 2vw;
     margin-bottom: 2vh;
+    color: white!important;
+}
+
+.MuiButtonBase-root{
+    color: white!important;
 }
